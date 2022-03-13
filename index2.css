@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+
+
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+:root {
+  --gold : #f0c483;
+  --secondary: #282828;
+  --black: rgb(19, 18, 18)
+  ;
+}
+
+.main {
+  background-color: black;
+    display: grid;
+    grid-template-rows: repeat(2, 100vh) 250px;
+     
+  }
+
+  .layer1 {
+    grid-row: 1/2;
+    background: var(--secondary);
+  }
+  .layer2 {
+    grid-row: 2/3;
+    background: white;
+  }
+  .layer3 {
+    grid-row: 3/4;
+    background: var(--black);
+  }
+
+
+.navbar{
+  color: #282828;
+}
+
+a{
+  font-family: 'Montserrat';
+
+}
+
+.navbar-collapse ul li a{
+  
+  color: var(--gold);
+  
+}
+
+
+
+
+.custom-toggler-icon span {
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: var(--gold);
+  margin: 8px 0;
+}
+.custom-toggler-icon::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: var(--gold);
+}
+.custom-toggler-icon::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: var(--gold);
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.carousel-indicators button {
+  height: 12px !important;
+  width: 12px !important;
+  margin: 0 10px !important;
+  border-radius: 100%;
+  background-color: #f0c483 !important;
+}
+
+#outer{
+  margin-top: 20vh;
+  background-color: var(--secondary);
+}
+
+  .w-100 {
+    width: 100% !important;
+    height: 92vh;
+  }
+  
+h4{
+  font-family: ephesis;
+}
+
+
+h3{
+  font-family: 'Montserrat';
+}
+
+
+
+
+ 
+h1{
+ 
+  font-family: 'Montserrat';
+  color:white;
+    font-size:large;
+    text-align:center;
+    line-height:150px;
+    transition:all 1s;
+
+    
+}
+
+h6{
+ 
+  font-family: 'Montserrat';
+  color:white;
+    text-align:center;
+    
+}
+
+#btn{
+  background-color: #f0c483;
+  font-family: 'Montserrat';
+}
+
+
+
+ 
+footer{
+  color: white;
+  background-color: #282828;
+}
+
+.bot{
+  color: var(--gold);
+}
+
+
+
+
+/*
+.item-1{
+	font-family: 'arial black';
+	font-size: 60px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-left: 50%;
+	transform: translateX(-200%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-45%);
+	}
+	75% {
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+}
+*/
